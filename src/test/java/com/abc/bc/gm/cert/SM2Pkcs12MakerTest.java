@@ -28,7 +28,7 @@ public class SM2Pkcs12MakerTest {
     @Test
     public void testMakePkcs12() {
         try {
-            BCPfxMaker.makePkcs12ToFile(TEST_P12_FILENAME,TEST_P12_PASSWD);
+            BCPkcs12Maker.makePkcs12ToFile(TEST_P12_FILENAME,TEST_P12_PASSWD);
         } catch (Exception ex) {
             ex.printStackTrace();
             Assert.fail();
@@ -41,7 +41,7 @@ public class SM2Pkcs12MakerTest {
         testMakePkcs12();
 
         try {
-            KeyStore ks = BCPfxMaker.loadKeyStore(TEST_P12_FILENAME,
+            KeyStore ks = BCPkcs12Maker.loadKeyStore(TEST_P12_FILENAME,
                     TEST_P12_PASSWD);
             PrivateKey privateKey = (BCECPrivateKey) ks.getKey("User Key",
                     TEST_P12_PASSWD);
