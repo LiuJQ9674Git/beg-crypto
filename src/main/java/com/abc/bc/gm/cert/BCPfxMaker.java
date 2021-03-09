@@ -131,12 +131,16 @@ public class BCPfxMaker {
     public static void makePkcs12ToFile(String p12FileName,char[] p12Password) {
         try {
             KeyPair subKP = SM2Util.generateKeyPair();
-            X500Name subDN = BCX509CertFace.buildSubjectDN();
-            SM2PublicKey sm2SubPub = new SM2PublicKey(subKP.getPublic().getAlgorithm(),
+            X500Name subDN = BCX509CertReadWriter.buildSubjectDN();
+//            SM2PublicKey sm2SubPub = new SM2PublicKey(subKP.getPublic().getAlgorithm(),
+//                    (BCECPublicKey) subKP.getPublic());
+
+            BCECPublicKey sm2SubPub = new BCECPublicKey(subKP.getPublic().getAlgorithm(),
                     (BCECPublicKey) subKP.getPublic());
+
             byte[] csr = CommonUtil.createCSR(subDN, sm2SubPub, subKP.getPrivate(),
                     BCX509CertMaker.SIGN_ALGO_SM3WITHSM2).getEncoded();
-            BCX509CertMaker certMaker = BCX509CertFace.buildCertMaker();
+            BCX509CertMaker certMaker = BCX509CertReadWriter.buildCertMaker();
             X509Certificate cert = certMaker.makeSSLEndEntityCert(csr);
 
             BCPkcs12Maker pkcs12Maker = new BCPkcs12Maker();

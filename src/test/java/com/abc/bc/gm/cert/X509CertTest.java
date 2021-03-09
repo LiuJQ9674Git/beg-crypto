@@ -4,7 +4,7 @@ import java.security.KeyPair;
 import java.security.cert.X509Certificate;
 
 public class X509CertTest {
-    public static void main() throws Exception {
+    public static void main(String[] args) throws Exception {
         // 生成公私钥对 ---------------------
         KeyPair kp = BCX509Cert.generateKeyPair();
         X509Certificate cert  = BCX509Cert.caCertGen(kp);

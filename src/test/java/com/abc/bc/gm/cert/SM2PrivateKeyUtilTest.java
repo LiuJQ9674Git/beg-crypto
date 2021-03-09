@@ -20,7 +20,7 @@ public class SM2PrivateKeyUtilTest {
         KeyPair keyPair = SM2Util.generateKeyPair();
         BCECPrivateKey privateKey = (BCECPrivateKey) keyPair.getPrivate();
         BCECPublicKey publicKey = (BCECPublicKey) keyPair.getPublic();
-        SM2PublicKey sm2PublicKey = new SM2PublicKey(publicKey.getAlgorithm(), publicKey);
+        BCECPublicKey sm2PublicKey = new BCECPublicKey(publicKey.getAlgorithm(), publicKey);
         String nativePriDER = ByteUtils.toHexString(privateKey.getEncoded());
         String sm2PriDER1 = ByteUtils.toHexString(SM2PrivateKeyUtil.getEncoded(privateKey,publicKey));
         String sm2PriDER2 = ByteUtils.toHexString(SM2PrivateKeyUtil.getEncoded(privateKey,publicKey));

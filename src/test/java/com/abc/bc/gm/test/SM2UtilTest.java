@@ -26,16 +26,6 @@ public class SM2UtilTest extends GMBaseTest {
             ECPrivateKeyParameters priKey = (ECPrivateKeyParameters) keyPair.getPrivate();
 
             ECPublicKeyParameters pubKey = (ECPublicKeyParameters) keyPair.getPublic();
-            keyPair.getPublic();
-            System.out.println("Pri Hex:"
-                + ByteUtils.toHexString(priKey.getD().toByteArray()).toUpperCase());
-            System.out.println("Pub X Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getAffineXCoord().getEncoded()).toUpperCase());
-            System.out.println("Pub X Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getAffineYCoord().getEncoded()).toUpperCase());
-            System.out.println("Pub Point Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getEncoded(false)).toUpperCase());
-
             byte[] sign = SM2Util.sign(priKey, WITH_ID, SRC_DATA);
             System.out.println("SM2 sign with withId result:\n" + ByteUtils.toHexString(sign));
             byte[] rawSign = SM2Util.decodeDERSM2Sign(sign);
@@ -65,22 +55,9 @@ public class SM2UtilTest extends GMBaseTest {
             ECPrivateKeyParameters priKey = (ECPrivateKeyParameters) keyPair.getPrivate();
             ECPublicKeyParameters pubKey = (ECPublicKeyParameters) keyPair.getPublic();
             byte[] pubKeyX509Der = BCECUtil.convertECPublicKeyToX509(pubKey);
-//            FileUtil.savePublicKey(pubKeyX509Der,
-//                    "target/ec2.x509.pub.der");
-
-
             System.out.println("Pri Hex:"
                 + ByteUtils.toHexString(priKey.getD().toByteArray()).toUpperCase());
             String keyFileName="privsm2.test1.pri";
-
-            //FileUtil.writeFileBase64(keyFileName,priKey); ;
-
-            System.out.println("Pub X Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getAffineXCoord().getEncoded()).toUpperCase());
-            System.out.println("Pub X Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getAffineYCoord().getEncoded()).toUpperCase());
-            System.out.println("Pub Point Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getEncoded(false)).toUpperCase());
 
             String en="中国";
             //byte[] encryptedData = SM2Util.encrypt(pubKey, SRC_DATA_24B);
@@ -92,9 +69,6 @@ public class SM2UtilTest extends GMBaseTest {
             if (!Arrays.equals(decryptedData, en.getBytes())) {
                 Assert.fail();
             }
-//            if (!Arrays.equals(decryptedData, SRC_DATA_24B)) {
-//                Assert.fail();
-//            }
         } catch (Exception ex) {
             ex.printStackTrace();
             Assert.fail();
@@ -108,16 +82,8 @@ public class SM2UtilTest extends GMBaseTest {
             ECPrivateKeyParameters priKey = (ECPrivateKeyParameters) keyPair.getPrivate();
             ECPublicKeyParameters pubKey = (ECPublicKeyParameters) keyPair.getPublic();
 
-            System.out.println("Pri Hex:"
-                + ByteUtils.toHexString(priKey.getD().toByteArray()).toUpperCase());
-            System.out.println("Pub X Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getAffineXCoord().getEncoded()).toUpperCase());
-            System.out.println("Pub X Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getAffineYCoord().getEncoded()).toUpperCase());
-            System.out.println("Pub Point Hex:"
-                + ByteUtils.toHexString(pubKey.getQ().getEncoded(false)).toUpperCase());
-
             byte[] encryptedData = SM2Util.encrypt(Mode.C1C3C2, pubKey, SRC_DATA_48B);
+
             System.out.println("SM2 encrypt result:\n" + ByteUtils.toHexString(encryptedData));
             byte[] decryptedData = SM2Util.decrypt(Mode.C1C3C2, priKey, encryptedData);
             System.out.println("SM2 decrypt result:\n" + ByteUtils.toHexString(decryptedData));
@@ -139,14 +105,10 @@ public class SM2UtilTest extends GMBaseTest {
 
             byte[] priKeyPkcs8Der = BCECUtil.convertECPrivateKeyToPKCS8(priKey, pubKey);
 
-            System.out.println("private key pkcs8 der length:" + priKeyPkcs8Der.length);
-            System.out.println("private key pkcs8 der:" + ByteUtils.toHexString(priKeyPkcs8Der));
             FileUtil.writeFile("target/ec.pkcs8.pri.der", priKeyPkcs8Der);
             String priKeyPkcs8Pem = BCECUtil.convertECPrivateKeyPKCS8ToPEM(priKeyPkcs8Der);
             FileUtil.writeFile("target/ec.pkcs8.pri.pem", priKeyPkcs8Pem.getBytes("UTF-8"));
 
-            //base64
-           // FileUtil.savePrivateKey(priKeyPkcs8Der, "target/ec1.pkcs8.pri.pem");
             byte[] priKeyFromPem = BCECUtil.convertECPrivateKeyPEMToPKCS8(priKeyPkcs8Pem);
 
             if (!Arrays.equals(priKeyFromPem, priKeyPkcs8Der)) {
@@ -157,23 +119,14 @@ public class SM2UtilTest extends GMBaseTest {
 
             byte[] priKeyPkcs1Der = BCECUtil.convertECPrivateKeyToSEC1(priKey, pubKey);
 
-            System.out.println("private key pkcs1 der length:" + priKeyPkcs1Der.length);
-            System.out.println("private key pkcs1 der:" + ByteUtils.toHexString(priKeyPkcs1Der));
             FileUtil.writeFile("target/ec.pkcs1.pri", priKeyPkcs1Der);
-            //base64
-            //FileUtil.savePrivateKey(priKeyPkcs1Der, "target/ec.pkcs11.pri");
 
             byte[] pubKeyX509Der = BCECUtil.convertECPublicKeyToX509(pubKey);
 
-            System.out.println("public key der length:" + pubKeyX509Der.length);
-            System.out.println("public key der:" + ByteUtils.toHexString(pubKeyX509Der));
-            //FileUtil.writeFile("target/ec.x509.pub.der", pubKeyX509Der);
-            //FileUtil.savePublicKey(pubKeyX509Der, "target/ec1.x509.pub.der");
 
             String pubKeyX509Pem = BCECUtil.convertECPublicKeyX509ToPEM(pubKeyX509Der);
             FileUtil.writeFile("target/ec.x509.pub.pem", pubKeyX509Pem.getBytes("UTF-8"));
-            //FileUtil.savePublicKey(pubKeyX509Pem.getBytes("UTF-8"),
-            //        "target/ec1.x509.pub.pem");
+
             byte[] pubKeyFromPem = BCECUtil.convertECPublicKeyPEMToX509(pubKeyX509Pem);
 
             if (!Arrays.equals(pubKeyFromPem, pubKeyX509Der)) {
@@ -200,8 +153,8 @@ public class SM2UtilTest extends GMBaseTest {
                     "7080102030405060708");
             byte[] withId = ByteUtils.fromHexString("31323334353637383132333435363738");
 
-            ECPrivateKeyParameters priKey = new ECPrivateKeyParameters(
-                new BigInteger(ByteUtils.fromHexString(priHex)), SM2Util.DOMAIN_PARAMS);
+//            ECPrivateKeyParameters priKey = new ECPrivateKeyParameters(
+//                new BigInteger(ByteUtils.fromHexString(priHex)), SM2Util.DOMAIN_PARAMS);
             ECPublicKeyParameters pubKey =
                     BCECUtil.createECPublicKeyParameters(xHex, yHex,
                             SM2Util.CURVE,

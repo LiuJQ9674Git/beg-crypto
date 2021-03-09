@@ -5,10 +5,12 @@ import org.bouncycastle.asn1.pkcs.PrivateKeyInfo;
 import org.bouncycastle.asn1.sec.ECPrivateKey;
 import org.bouncycastle.asn1.x509.AlgorithmIdentifier;
 import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo;
+import org.bouncycastle.asn1.x9.X9ECPoint;
 import org.bouncycastle.asn1.x9.X9ObjectIdentifiers;
 import org.bouncycastle.jcajce.provider.asymmetric.ec.BCECPrivateKey;
 import org.bouncycastle.jcajce.provider.asymmetric.ec.BCECPublicKey;
 import org.bouncycastle.jcajce.provider.asymmetric.util.ECUtil;
+import org.bouncycastle.jcajce.provider.asymmetric.util.KeyUtil;
 import org.bouncycastle.jcajce.provider.config.ProviderConfiguration;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
@@ -55,11 +57,22 @@ public class SM2PrivateKeyUtil {
         try {
 
             SubjectPublicKeyInfo info = SubjectPublicKeyInfo.getInstance(ASN1Primitive.
-                    fromByteArray(SM2PublicKeyUtil.getEncode(pub,false)));
+                    fromByteArray(getPubulicEncode(pub,false)));
 
             return info.getPublicKeyData();
         } catch (IOException e) {   // should never happen
             return null;
         }
+    }
+
+    public static byte[] getPubulicEncode(BCECPublicKey key,boolean withCompression) {
+        ASN1OctetString p = ASN1OctetString.getInstance(
+                new X9ECPoint(key.getQ(), withCompression).toASN1Primitive());
+
+        // stored curve is null if ImplicitlyCa
+        SubjectPublicKeyInfo info = new SubjectPublicKeyInfo(
+                new AlgorithmIdentifier(X9ObjectIdentifiers.id_ecPublicKey, ID_SM2_PUBKEY_PARAM),
+                p.getOctets());
+        return KeyUtil.getEncodedSubjectPublicKeyInfo(info);
     }
 }

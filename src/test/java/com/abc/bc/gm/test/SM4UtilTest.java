@@ -30,7 +30,7 @@ public class SM4UtilTest extends GMBaseTest {
         //SM4Util.decrypt_String_ECB_NoPadding();
         try {
             String test="中华人民共和国";
-            String strKey="1234567890123450";
+            String strKey="7C7982B74091DBC22F17FDA14854EAF0";
             byte[] cipherText = null;
             cipherText = SM4Util.encrypt_ECB_Padding(strKey.getBytes(), test.getBytes());
             String base= new String(Base64.encodeBase64(cipherText));

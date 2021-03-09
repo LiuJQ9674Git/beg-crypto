@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0b37e21-5233-4b51-b79d-db1a86627ef1" name="Default Changelist" comment="" />
+    <list default="true" id="a0b37e21-5233-4b51-b79d-db1a86627ef1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCCertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCCertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCPfxMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCPfxMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509Cert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509Cert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertReadWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/RSAUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/RsaKeysUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/TestSM2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2CertUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2CertUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerCBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerCBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/X509CertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/X509CertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2UtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM4UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM4UtilTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +36,18 @@
     <session id="-844433792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="html" value="1" />
-          <entry key="java" value="268" />
+          <entry key="java" value="325" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -31,21 +55,21 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="268" />
+          <entry key="JAVA" value="325" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="14" />
-          <entry key="java" value="427" />
+          <entry key="dummy" value="25" />
+          <entry key="java" value="785" />
           <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="427" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="785" />
+          <entry key="PLAIN_TEXT" value="25" />
           <entry key="XML" value="22" />
         </counts>
       </usages-collector>
@@ -54,28 +78,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/FileSNAllocatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2CertUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerCBTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="295">
+              <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="82" column="55" selection-start-line="82" selection-start-column="55" selection-end-line="82" selection-end-column="55" />
+            <state relative-caret-position="238">
+              <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -95,35 +101,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2Pkcs12MakerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="537">
+              <caret line="60" column="55" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM2Util.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2063">
-              <caret line="464" column="12" selection-start-line="464" selection-start-column="12" selection-end-line="464" selection-end-column="12" />
+            <state relative-caret-position="172">
+              <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM3Util.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/X509CertTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-398">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2UtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKeyUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM4Util.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKeyUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2317">
-              <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" column="18" lean-forward="true" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="29" column="10" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -143,6 +194,9 @@
       <find>SM2PublicKey</find>
       <find>SM2PublicKeyPublicKey</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -165,23 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/RSAPSSParamsExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/SM2ParamSpecExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter7/BasicDHExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter7/ECCDHExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter7/certificates/KEMSExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathBuilderExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathWithCheckerExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/OCSPProcessingExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/BCFKSExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/BCFKSwithScryptExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/JKSExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/PKCS12Example.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/CMSTSPExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/EnvelopedDataExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter8/certificates/JcaX509Certificate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/JavaMailSMIMEEnvelopedDataExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/JavaMailSMIMESignedDataExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/SignedDataExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/SignedDataStreamExample.java" />
@@ -216,12 +253,39 @@
         <option value="$PROJECT_DIR$/src/main/java/org/zz/gmhelper/cert/BCX509CertFace.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2Pkcs12MakerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM2Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM4UtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerCBTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertFace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertReadWriter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCPfxMaker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2CertUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509Cert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/X509CertTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCCertUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2UtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKey.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKeyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKeyUtil.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="beg-crypto-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="beg-crypto-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -230,14 +294,15 @@
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="AndroidView" />
+      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -285,6 +350,16 @@
               <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
               <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abc" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,6 +380,47 @@
             <path>
               <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
               <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abc" type="462c0819:PsiDirectoryNode" />
+              <item name="bc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abc" type="462c0819:PsiDirectoryNode" />
+              <item name="bc" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abc" type="462c0819:PsiDirectoryNode" />
+              <item name="bc" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abc" type="462c0819:PsiDirectoryNode" />
+              <item name="bc" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -314,7 +430,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615281143312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615297206457" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -333,101 +449,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SM2UtilTest.testSignAndVerify">
-    <configuration name="SM2CertUtilTest.testVerifyCertificateFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SM2PrivateKeyUtilTest.testEncoded">
+    <configuration name="SM2PrivateKeyUtilTest.testEncoded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="beg-crypto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.zz.gmhelper.cert.*" />
+          <option name="PATTERN" value="com.abc.bc.gm.cert.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.zz.gmhelper.cert" />
-      <option name="MAIN_CLASS_NAME" value="org.zz.gmhelper.cert.SM2CertUtilTest" />
-      <option name="METHOD_NAME" value="testVerifyCertificateFromFile" />
+      <option name="PACKAGE_NAME" value="com.abc.bc.gm.cert" />
+      <option name="MAIN_CLASS_NAME" value="com.abc.bc.gm.cert.SM2PrivateKeyUtilTest" />
+      <option name="METHOD_NAME" value="testEncoded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SM2PfxMakerCBTest.testMakePfx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SM2UtilTest.testEncryptAndDecrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="beg-crypto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.zz.gmhelper.cert.*" />
+          <option name="PATTERN" value="com.abc.bc.gm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.zz.gmhelper.cert" />
-      <option name="MAIN_CLASS_NAME" value="org.zz.gmhelper.cert.SM2PfxMakerCBTest" />
-      <option name="METHOD_NAME" value="testMakePfx" />
+      <option name="PACKAGE_NAME" value="com.abc.bc.gm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.abc.bc.gm.test.SM2UtilTest" />
+      <option name="METHOD_NAME" value="testEncryptAndDecrypt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SM2PfxMakerTest.testMakePfx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SM2UtilTest.testEncryptAndDecrypt_C1C2C3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="beg-crypto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.zz.gmhelper.cert.*" />
+          <option name="PATTERN" value="com.abc.bc.gm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.zz.gmhelper.cert" />
-      <option name="MAIN_CLASS_NAME" value="org.zz.gmhelper.cert.SM2PfxMakerTest" />
-      <option name="METHOD_NAME" value="testMakePfx" />
+      <option name="PACKAGE_NAME" value="com.abc.bc.gm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.abc.bc.gm.test.SM2UtilTest" />
+      <option name="METHOD_NAME" value="testEncryptAndDecrypt_C1C2C3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SM2PfxMakerTest.testPfxSign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SM2UtilTest.testKeyPairEncoding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="beg-crypto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.zz.gmhelper.cert.*" />
+          <option name="PATTERN" value="com.abc.bc.gm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.zz.gmhelper.cert" />
-      <option name="MAIN_CLASS_NAME" value="org.zz.gmhelper.cert.SM2PfxMakerTest" />
-      <option name="METHOD_NAME" value="testPfxSign" />
+      <option name="PACKAGE_NAME" value="com.abc.bc.gm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.abc.bc.gm.test.SM2UtilTest" />
+      <option name="METHOD_NAME" value="testKeyPairEncoding" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SM2UtilTest.testSignAndVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SM2UtilTest.testSM2KeyRecovery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="beg-crypto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.zz.gmhelper.test.*" />
+          <option name="PATTERN" value="com.abc.bc.gm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.zz.gmhelper.test" />
-      <option name="MAIN_CLASS_NAME" value="org.zz.gmhelper.test.SM2UtilTest" />
-      <option name="METHOD_NAME" value="testSignAndVerify" />
+      <option name="PACKAGE_NAME" value="com.abc.bc.gm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.abc.bc.gm.test.SM2UtilTest" />
+      <option name="METHOD_NAME" value="testSM2KeyRecovery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SM2PfxMakerTest.testMakePfx" />
-      <item itemvalue="JUnit.SM2CertUtilTest.testVerifyCertificateFromFile" />
-      <item itemvalue="JUnit.SM2PfxMakerCBTest.testMakePfx" />
-      <item itemvalue="JUnit.SM2PfxMakerTest.testPfxSign" />
-      <item itemvalue="JUnit.SM2UtilTest.testSignAndVerify" />
+      <item itemvalue="JUnit.SM2UtilTest.testEncryptAndDecrypt" />
+      <item itemvalue="JUnit.SM2UtilTest.testEncryptAndDecrypt_C1C2C3" />
+      <item itemvalue="JUnit.SM2UtilTest.testSM2KeyRecovery" />
+      <item itemvalue="JUnit.SM2UtilTest.testKeyPairEncoding" />
+      <item itemvalue="JUnit.SM2PrivateKeyUtilTest.testEncoded" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SM2UtilTest.testSignAndVerify" />
-        <item itemvalue="JUnit.SM2PfxMakerTest.testPfxSign" />
-        <item itemvalue="JUnit.SM2PfxMakerTest.testMakePfx" />
-        <item itemvalue="JUnit.SM2PfxMakerCBTest.testMakePfx" />
-        <item itemvalue="JUnit.SM2CertUtilTest.testVerifyCertificateFromFile" />
+        <item itemvalue="JUnit.SM2PrivateKeyUtilTest.testEncoded" />
+        <item itemvalue="JUnit.SM2UtilTest.testEncryptAndDecrypt_C1C2C3" />
+        <item itemvalue="JUnit.SM2UtilTest.testKeyPairEncoding" />
+        <item itemvalue="JUnit.SM2UtilTest.testSM2KeyRecovery" />
+        <item itemvalue="JUnit.SM2UtilTest.testEncryptAndDecrypt" />
       </list>
     </recent_temporary>
   </component>
@@ -445,41 +561,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SM2CertUtilTest_testGetBCECPublicKey - 2021.03.09 at 16h 56m 08s.xml">
-      <configuration name="SM2CertUtilTest.testGetBCECPublicKey" configurationId="JUnit" />
+    <history-entry file="SM2UtilTest_testEncryptAndDecrypt_C1C2C3 - 2021.03.09 at 21h 31m 10s.xml">
+      <configuration name="SM2UtilTest.testEncryptAndDecrypt_C1C2C3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2CertUtilTest_testVerifyCertificateFromFile - 2021.03.09 at 16h 56m 16s.xml">
-      <configuration name="SM2CertUtilTest.testVerifyCertificateFromFile" configurationId="JUnit" />
+    <history-entry file="SM2UtilTest_testSM2KeyRecovery - 2021.03.09 at 21h 32m 48s.xml">
+      <configuration name="SM2UtilTest.testSM2KeyRecovery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2CertUtilTest_testVerifyCertificate - 2021.03.09 at 16h 56m 45s.xml">
-      <configuration name="SM2CertUtilTest.testVerifyCertificate" configurationId="JUnit" />
+    <history-entry file="SM2UtilTest_testKeyPairEncoding - 2021.03.09 at 21h 32m 55s.xml">
+      <configuration name="SM2UtilTest.testKeyPairEncoding" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2CertUtilTest_testVerifyCertificateFromFile - 2021.03.09 at 16h 57m 02s.xml">
-      <configuration name="SM2CertUtilTest.testVerifyCertificateFromFile" configurationId="JUnit" />
+    <history-entry file="SM2UtilTest_testEncryptAndDecrypt_C1C2C3 - 2021.03.09 at 21h 33m 02s.xml">
+      <configuration name="SM2UtilTest.testEncryptAndDecrypt_C1C2C3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2PfxMakerCBTest_testMakePfx - 2021.03.09 at 16h 57m 16s.xml">
-      <configuration name="SM2PfxMakerCBTest.testMakePfx" configurationId="JUnit" />
+    <history-entry file="SM2UtilTest_testEncryptAndDecrypt_C1C2C3 - 2021.03.09 at 21h 35m 06s.xml">
+      <configuration name="SM2UtilTest.testEncryptAndDecrypt_C1C2C3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2PfxMakerTest_testMakePfx - 2021.03.09 at 16h 57m 28s.xml">
-      <configuration name="SM2PfxMakerTest.testMakePfx" configurationId="JUnit" />
+    <history-entry file="SM2PrivateKeyUtilTest_testEncoded - 2021.03.09 at 21h 35m 12s.xml">
+      <configuration name="SM2PrivateKeyUtilTest.testEncoded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2PfxMakerTest_testPfxSign - 2021.03.09 at 16h 57m 34s.xml">
-      <configuration name="SM2PfxMakerTest.testPfxSign" configurationId="JUnit" />
+    <history-entry file="SM2PrivateKeyUtilTest_testEncoded - 2021.03.09 at 21h 37m 02s.xml">
+      <configuration name="SM2PrivateKeyUtilTest.testEncoded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2PfxMakerTest_testMakePfx - 2021.03.09 at 16h 58m 28s.xml">
-      <configuration name="SM2PfxMakerTest.testMakePfx" configurationId="JUnit" />
+    <history-entry file="SM2PrivateKeyUtilTest_testEncoded - 2021.03.09 at 21h 37m 31s.xml">
+      <configuration name="SM2PrivateKeyUtilTest.testEncoded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2PfxMakerTest_testPfxSign - 2021.03.09 at 16h 58m 36s.xml">
-      <configuration name="SM2PfxMakerTest.testPfxSign" configurationId="JUnit" />
+    <history-entry file="SM2PrivateKeyUtilTest_testEncoded - 2021.03.09 at 21h 37m 54s.xml">
+      <configuration name="SM2PrivateKeyUtilTest.testEncoded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SM2UtilTest_testSignAndVerify - 2021.03.09 at 16h 59m 44s.xml">
-      <configuration name="SM2UtilTest.testSignAndVerify" configurationId="JUnit" />
+    <history-entry file="SM2PrivateKeyUtilTest_testEncoded - 2021.03.09 at 21h 40m 01s.xml">
+      <configuration name="SM2PrivateKeyUtilTest.testEncoded" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49390244" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49390244" visible="true" weight="0.21745351" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -503,7 +620,7 @@
       <window_info anchor="bottom" id="Jelastic" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -513,7 +630,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.15665236" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Structure" order="9" sideWeight="0.50609756" visible="true" weight="0.15879828" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.50609756" visible="true" weight="0.15808298" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -532,196 +649,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter13/openpgp/BasicKeyRingExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter12/JcaPKCS10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter12/CRMFUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter13/openpgp/KeyBoxExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="120" column="18" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter13/openpgp/PGPClearTextSignatureExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathBuilderExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/Protocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/TLSClientWithClientAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuthWithPKIX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSAuthExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/TLSUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter15/LMSCertExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <folding>
-            <element signature="e#0#3751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter15/LMSUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter15/LMSExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathWithCheckerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter15/XMSSUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter15/XMSSCertExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter15/XMSSExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter15/XMSSExceptionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="64" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zz/gmhelper/SM2PublicKeyUtile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKeyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zz/gmhelper/SM2PublicKeyUtile.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcpkix-jdk15on/1.65/bcpkix-jdk15on-1.65-sources.jar!/org/bouncycastle/pkcs/jcajce/JcaPKCS10CertificationRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -729,40 +657,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCCertUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2KeyExchangeUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCPfxMaker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/FileSNAllocatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+        <state relative-caret-position="195">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM4Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/TestSM2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM4UtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="86" column="2" lean-forward="true" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/BCFKSExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/JKSExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/KeyStoreUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/PKCS12Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/PrivateCredential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaX509CRL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1507">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter3/digests/HMacExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter2/ciphers/StreamExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter3/digests/JcaUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter4/cipher/CCMWithAADExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter4/cipher/AEADUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1996">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter4/cipher/EAXExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter4/cipher/GCMExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/SM2ParamSpecExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/signature/SignatureSM3WithSM2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.65/bcprov-jdk15on-1.65-sources.jar!/org/bouncycastle/jce/provider/BouncyCastleProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCPkcs12Maker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="329">
           <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertReadWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-953">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM3Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM2Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="136" column="66" selection-start-line="136" selection-start-column="58" selection-end-line="136" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/BCECUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1817">
+          <caret line="250" column="38" selection-start-line="250" selection-start-column="38" selection-end-line="250" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM2Cipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/CommonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="585">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/FileSNAllocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="-98">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
@@ -774,66 +887,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKey.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="56" column="85" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="85" />
+        <state relative-caret-position="239">
+          <caret line="30" column="15" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKeyUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCPfxMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        <state relative-caret-position="207">
+          <caret line="138" column="55" lean-forward="true" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="274" column="70" selection-start-line="274" selection-start-column="61" selection-end-line="274" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509Cert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+        <state relative-caret-position="29">
+          <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCX509CertFace.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2CertUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="-15">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/FileSNAllocatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="60">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/BCCertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerCBTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="295">
+          <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -842,81 +944,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PfxMakerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="82" column="55" selection-start-line="82" selection-start-column="55" selection-end-line="82" selection-end-column="55" />
+        <state relative-caret-position="238">
+          <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2KeyExchangeUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2Pkcs12MakerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2UtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/X509CertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="537">
+          <caret line="60" column="55" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/X509CertTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2Pkcs12MakerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/RsaKeysUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="-61">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2CertUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/test/SM2UtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="33" />
+        <state relative-caret-position="158">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM2Util.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2063">
-          <caret line="464" column="12" selection-start-line="464" selection-start-column="12" selection-end-line="464" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="29" column="10" selection-end-line="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM3Util.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="113">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM4Util.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2317">
-          <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
+        <state relative-caret-position="172">
+          <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PrivateKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/SM2PublicKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="true" selection-end-line="26" />
         </state>
       </provider>
     </entry>

@@ -73,11 +73,14 @@ public class BCX509Cert {
         throw new Exception("Unsupported PublicKey Algorithm:" + issPub.getAlgorithm());
     }
 
+
     //生成自签发ca证书
     public static X509Certificate caCertGen(KeyPair keypair)throws Exception {
         X500Name issuerDN = new X500Name("CN=My Application,O=My Organisation,L=My City,C=DE");
 
-        SM2PublicKey sm2SubPub = new SM2PublicKey(keypair.getPublic().getAlgorithm(),
+//        SM2PublicKey sm2SubPub = new SM2PublicKey(keypair.getPublic().getAlgorithm(),
+//                (BCECPublicKey) keypair.getPublic());
+        BCECPublicKey sm2SubPub = new BCECPublicKey(keypair.getPublic().getAlgorithm(),
                 (BCECPublicKey) keypair.getPublic());
         byte[] csr = createCSR(issuerDN, sm2SubPub, keypair.getPrivate(), "SM3withSM2").getEncoded();
 

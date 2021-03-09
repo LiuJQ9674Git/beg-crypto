@@ -44,23 +44,7 @@ public class SM2PfxMakerTest {
     @Test
     public void testMakePfx() {
         try {
-            KeyPair subKP = SM2Util.generateKeyPair();
-            X500Name subDN = BCX509CertFace.buildSubjectDN();
-            SM2PublicKey sm2SubPub = new SM2PublicKey(subKP.getPublic().getAlgorithm(),
-                (BCECPublicKey) subKP.getPublic());
-            byte[] csr = CommonUtil.createCSR(subDN, sm2SubPub, subKP.getPrivate(),
-                BCX509CertMaker.SIGN_ALGO_SM3WITHSM2).getEncoded();
-            BCX509CertMaker certMaker = BCX509CertFace.buildCertMaker();
-            X509Certificate cert = certMaker.makeSSLEndEntityCert(csr);
-
-            BCPfxMaker pfxMaker = new BCPfxMaker();
-            PKCS10CertificationRequest request = new PKCS10CertificationRequest(csr);
-            PublicKey subPub = BCECUtil.createPublicKeyFromSubjectPublicKeyInfo(
-                    request.getSubjectPublicKeyInfo());
-            PKCS12PfxPdu pfx = pfxMaker.makePfx(subKP.getPrivate(), subPub, cert,
-                    TEST_PFX_PASSWD);
-            byte[] pfxDER = pfx.getEncoded(ASN1Encoding.DER);
-            FileUtil.writeFile(TEST_PFX_FILENAME, pfxDER);
+            BCCertUtil.makePfx(TEST_PFX_FILENAME,TEST_PFX_PASSWD);
         } catch (Exception ex) {
             ex.printStackTrace();
             Assert.fail();
