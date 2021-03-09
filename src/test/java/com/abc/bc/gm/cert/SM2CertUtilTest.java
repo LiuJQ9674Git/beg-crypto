@@ -125,6 +125,10 @@ public class SM2CertUtilTest {
             byte[] sign = SM2Util.sign(userPriKey, srcDataNoId);
             //公钥验签
             boolean flag = SM2Util.verify(userMidPub, srcDataNoId, sign);
+
+            byte[] cipherText=SM2Util.encrypt(userMidPub,srcDataNoId);
+            byte[] plainTxt=SM2Util.decrypt(userPriKey,cipherText);
+            System.out.println("plainTxt:\t"+new String(plainTxt));
             if (!flag) {
                 Assert.fail("verify failed");
             }
