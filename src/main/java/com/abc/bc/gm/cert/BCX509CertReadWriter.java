@@ -19,7 +19,7 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
 /**
- *
+ * 产生与读写CA
  */
 public class BCX509CertReadWriter {
     static {
@@ -39,7 +39,7 @@ public class BCX509CertReadWriter {
             X500Name subDN = buildSubjectDN();
             BCECPublicKey sm2SubPub= new BCECPublicKey(subKP.getPublic().getAlgorithm(),
                     (BCECPublicKey) subKP.getPublic());
-
+            //SM3withSM2
             byte[] csr = CommonUtil.createCSR(subDN, sm2SubPub, subKP.getPrivate(),
                     BCX509CertMaker.SIGN_ALGO_SM3WITHSM2).getEncoded();
             //签发机构，签发证书，调用Root

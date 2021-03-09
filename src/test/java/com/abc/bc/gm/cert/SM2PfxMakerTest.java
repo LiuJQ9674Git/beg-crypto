@@ -24,9 +24,8 @@ import org.junit.Test;
  *
  * PKCS#12的ref，见RSA给出的文档：PKCS #12: Personal Information Exchange Syntax Standard
  *
- * PKCS12Store中方法load()和save()，加载和保存证书，其中的实现比较复杂，处理过程主要是对PKCS12证书内容的一组SafeBag进行判断和解包。一个PKCS12结构分析的文档：http://cid-780607117452312e.office.live.com/self.aspx/.Public/PKCS%5E3l2%E7%BB%93%E6%9E%84%E5%88%86%E6%9E%90.pdf
- *
- *
+ * PKCS12Store中方法load()和save()，加载和保存证书，其中的实现比较复杂，
+ * 处理过程主要是对PKCS12证书内容的一组SafeBag进行判断和解包。
  *
  * AsymmetricKeyEntry中封装了私钥，支持属性包的附加，attributeBag，可以方便获得私钥或封装私钥
  *
@@ -44,7 +43,7 @@ public class SM2PfxMakerTest {
     @Test
     public void testMakePfx() {
         try {
-            BCCertUtil.makePfx(TEST_PFX_FILENAME,TEST_PFX_PASSWD);
+            BCPkcs12Maker.makePfx(TEST_PFX_FILENAME,TEST_PFX_PASSWD);
         } catch (Exception ex) {
             ex.printStackTrace();
             Assert.fail();

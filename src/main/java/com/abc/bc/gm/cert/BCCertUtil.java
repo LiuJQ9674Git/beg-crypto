@@ -34,6 +34,10 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.util.List;
 
+/**
+ * 生成、读写、证书
+ * 从证书中获取公钥
+ */
 public class BCCertUtil {
 
     /**
@@ -67,29 +71,6 @@ public class BCCertUtil {
         return true;
     }
 
-    public static void makePfx(String pfxFileName,String password) {
-        try {
-            KeyPair subKP = SM2Util.generateKeyPair();
-            X500Name subDN = BCX509CertReadWriter.buildSubjectDN();
-            BCECPublicKey sm2SubPub = new BCECPublicKey(subKP.getPublic().getAlgorithm(),
-                    (BCECPublicKey) subKP.getPublic());
-            byte[] csr = CommonUtil.createCSR(subDN, sm2SubPub, subKP.getPrivate(),
-                    BCX509CertMaker.SIGN_ALGO_SM3WITHSM2).getEncoded();
-            BCX509CertMaker certMaker = BCX509CertReadWriter.buildCertMaker();
-            X509Certificate cert = certMaker.makeSSLEndEntityCert(csr);
-
-            BCPfxMaker pfxMaker = new BCPfxMaker();
-            PKCS10CertificationRequest request = new PKCS10CertificationRequest(csr);
-            PublicKey subPub = BCECUtil.createPublicKeyFromSubjectPublicKeyInfo(
-                    request.getSubjectPublicKeyInfo());
-            PKCS12PfxPdu pfx = pfxMaker.makePfx(subKP.getPrivate(), subPub, cert,
-                    password);
-            byte[] pfxDER = pfx.getEncoded(ASN1Encoding.DER);
-            FileUtil.writeFile(pfxFileName, pfxDER);
-        } catch (Exception ex) {
-            throw new RuntimeException(ex);
-        }
-    }
     /**
      * 根据路径读取X509Certificate证书
      *

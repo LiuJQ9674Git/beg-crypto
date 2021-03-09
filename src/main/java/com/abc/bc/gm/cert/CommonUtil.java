@@ -21,6 +21,9 @@ import java.security.PublicKey;
 import java.util.Iterator;
 import java.util.Map;
 
+/**
+ * X509操作辅助类
+ */
 public class CommonUtil {
     /**
      * 如果不知道怎么填充names，可以查看org.bouncycastle.asn1.x500.style.BCStyle这个类，

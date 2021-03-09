@@ -1,5 +1,7 @@
 package com.abc.bc.gm.cert;
 
+import com.abc.bc.gm.cert.demo.BCX509Cert;
+
 import java.security.KeyPair;
 import java.security.cert.X509Certificate;
 

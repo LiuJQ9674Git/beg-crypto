@@ -1,13 +1,17 @@
 package com.abc.bc.gm.cert;
 
+import com.abc.bc.gm.BCECUtil;
+import com.abc.bc.gm.FileUtil;
+import com.abc.bc.gm.SM2Util;
+import org.bouncycastle.asn1.ASN1Encoding;
+import org.bouncycastle.asn1.x500.X500Name;
+import org.bouncycastle.jcajce.provider.asymmetric.ec.BCECPublicKey;
+import org.bouncycastle.pkcs.PKCS10CertificationRequest;
+import org.bouncycastle.pkcs.PKCS12PfxPdu;
 import org.bouncycastle.pkcs.PKCSException;
 
 import java.io.IOException;
-import java.security.KeyStore;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
-import java.security.NoSuchProviderException;
-import java.security.PrivateKey;
+import java.security.*;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
@@ -48,5 +52,34 @@ public class BCPkcs12Maker {
         throws KeyStoreException, NoSuchProviderException,
         NoSuchAlgorithmException, CertificateException, IOException {
       return makePkcs12(privKey, new X509Certificate[] {cert}, passwd);
+    }
+
+    /**
+     * 生成证书
+     * @param pfxFileName
+     * @param password
+     */
+    public static void makePfx(String pfxFileName,String password) {
+        try {
+            KeyPair subKP = SM2Util.generateKeyPair();
+            X500Name subDN = BCX509CertReadWriter.buildSubjectDN();
+            BCECPublicKey sm2SubPub = new BCECPublicKey(subKP.getPublic().getAlgorithm(),
+                    (BCECPublicKey) subKP.getPublic());
+            byte[] csr = CommonUtil.createCSR(subDN, sm2SubPub, subKP.getPrivate(),
+                    BCX509CertMaker.SIGN_ALGO_SM3WITHSM2).getEncoded();
+            BCX509CertMaker certMaker = BCX509CertReadWriter.buildCertMaker();
+            X509Certificate cert = certMaker.makeSSLEndEntityCert(csr);
+
+            BCPfxMaker pfxMaker = new BCPfxMaker();
+            PKCS10CertificationRequest request = new PKCS10CertificationRequest(csr);
+            PublicKey subPub = BCECUtil.createPublicKeyFromSubjectPublicKeyInfo(
+                    request.getSubjectPublicKeyInfo());
+            PKCS12PfxPdu pfx = pfxMaker.makePfx(subKP.getPrivate(), subPub, cert,
+                    password);
+            byte[] pfxDER = pfx.getEncoded(ASN1Encoding.DER);
+            FileUtil.writeFile(pfxFileName, pfxDER);
+        } catch (Exception ex) {
+            throw new RuntimeException(ex);
+        }
     }
 }

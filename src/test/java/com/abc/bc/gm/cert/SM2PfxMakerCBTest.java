@@ -29,7 +29,7 @@ public class SM2PfxMakerCBTest {
     @Test
     public void testMakePfx() {
         try {
-            BCCertUtil.makePfx(TEST_PFX_FILENAME,TEST_PFX_PASSWD);
+            BCPkcs12Maker.makePfx(TEST_PFX_FILENAME,TEST_PFX_PASSWD);
         } catch (Exception ex) {
             ex.printStackTrace();
             Assert.fail();

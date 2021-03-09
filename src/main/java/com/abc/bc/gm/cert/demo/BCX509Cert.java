@@ -1,4 +1,4 @@
-package com.abc.bc.gm.cert;
+package com.abc.bc.gm.cert.demo;
 
 import com.abc.bc.gm.BCECUtil;
 import org.bouncycastle.asn1.gm.GMNamedCurves;
@@ -30,7 +30,9 @@ import java.security.*;
 import java.security.cert.X509Certificate;
 import java.util.*;
 
-
+/**
+ * X509CertTest 使用
+ */
 public class BCX509Cert {
 
     private static X9ECParameters x9ECParameters = GMNamedCurves.getByName("sm2p256v1");
@@ -45,6 +47,10 @@ public class BCX509Cert {
         }
     }
 
+    /**
+     * 生成证书的第一步
+     * @return
+     */
     public static KeyPair generateKeyPair(){
         try {
             KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
@@ -56,30 +62,17 @@ public class BCX509Cert {
         }
     }
 
-    public static PKCS10CertificationRequest createCSR(X500Name subject, PublicKey pubKey, PrivateKey priKey,String signAlgo)
-            throws OperatorCreationException {
-        PKCS10CertificationRequestBuilder csrBuilder = new JcaPKCS10CertificationRequestBuilder(subject, pubKey);
-        ContentSigner signerBuilder = new JcaContentSignerBuilder(signAlgo)
-                .setProvider(BouncyCastleProvider.PROVIDER_NAME).build(priKey);
-        return csrBuilder.build(signerBuilder);
-    }
 
-    private static JcaContentSignerBuilder makeContentSignerBuilder(PublicKey issPub) throws Exception {
-        if (issPub.getAlgorithm().equals("EC")) {
-            JcaContentSignerBuilder contentSignerBuilder = new JcaContentSignerBuilder(SIGN_ALGO_SM3WITHSM2);
-            contentSignerBuilder.setProvider(BouncyCastleProvider.PROVIDER_NAME);
-            return contentSignerBuilder;
-        }
-        throw new Exception("Unsupported PublicKey Algorithm:" + issPub.getAlgorithm());
-    }
-
-
-    //生成自签发ca证书
+    /**
+     * 生成CA的第二步
+     * @param keypair
+     * @return
+     * @throws Exception
+     */
     public static X509Certificate caCertGen(KeyPair keypair)throws Exception {
+        //
         X500Name issuerDN = new X500Name("CN=My Application,O=My Organisation,L=My City,C=DE");
 
-//        SM2PublicKey sm2SubPub = new SM2PublicKey(keypair.getPublic().getAlgorithm(),
-//                (BCECPublicKey) keypair.getPublic());
         BCECPublicKey sm2SubPub = new BCECPublicKey(keypair.getPublic().getAlgorithm(),
                 (BCECPublicKey) keypair.getPublic());
         byte[] csr = createCSR(issuerDN, sm2SubPub, keypair.getPrivate(), "SM3withSM2").getEncoded();
@@ -116,6 +109,31 @@ public class BCX509Cert {
         return cert;
     }
 
+    private static PKCS10CertificationRequest createCSR(X500Name subject, PublicKey pubKey, PrivateKey priKey,String signAlgo)
+            throws OperatorCreationException {
+        PKCS10CertificationRequestBuilder csrBuilder = new JcaPKCS10CertificationRequestBuilder(subject, pubKey);
+        ContentSigner signerBuilder = new JcaContentSignerBuilder(signAlgo)
+                .setProvider(BouncyCastleProvider.PROVIDER_NAME).build(priKey);
+        return csrBuilder.build(signerBuilder);
+    }
+
+    private static JcaContentSignerBuilder makeContentSignerBuilder(PublicKey issPub) throws Exception {
+        if (issPub.getAlgorithm().equals("EC")) {
+            JcaContentSignerBuilder contentSignerBuilder = new JcaContentSignerBuilder(SIGN_ALGO_SM3WITHSM2);
+            contentSignerBuilder.setProvider(BouncyCastleProvider.PROVIDER_NAME);
+            return contentSignerBuilder;
+        }
+        throw new Exception("Unsupported PublicKey Algorithm:" + issPub.getAlgorithm());
+    }
+
+    /////////////////////X509证书产生使用///////////////////
+    /**
+     * 保存证书
+     * @param x509Cert
+     * @param path certSm2.crt
+     * @return
+     * @throws Exception
+     */
     public static String saveX509ToPemFile(X509Certificate x509Cert, String path) throws Exception {
         PemObject pemCSR = new PemObject("CERTIFICATE REQUEST", x509Cert.getEncoded());
         StringWriter str = new StringWriter();
@@ -129,6 +147,13 @@ public class BCX509Cert {
         return str.toString();
     }
 
+    /**
+     * 保存私钥
+     * 私钥来自证书
+     * @param priv
+     * @param keyFileName
+     * @throws IOException privSm2.pri
+     */
     public static void savePrivateKey(PrivateKey priv, String keyFileName) throws IOException {
         // 保存private key
         try {

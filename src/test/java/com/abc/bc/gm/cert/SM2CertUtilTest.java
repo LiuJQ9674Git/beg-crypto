@@ -20,6 +20,9 @@ import java.security.Security;
 import java.security.cert.X509Certificate;
 import java.util.Arrays;
 
+/**
+ *
+ */
 public class SM2CertUtilTest {
     private static final String ROOT_PRI_PATH = "target/test.root.ca.pri";
     private static final String ROOT_CERT_PATH = "target/test.root.ca.cer";
