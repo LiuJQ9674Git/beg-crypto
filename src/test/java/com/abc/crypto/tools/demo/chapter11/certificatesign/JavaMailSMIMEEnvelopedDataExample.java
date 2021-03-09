@@ -34,8 +34,8 @@ import org.bouncycastle.mail.smime.SMIMEUtil;
 import org.bouncycastle.operator.jcajce.JcaAlgorithmParametersConverter;
 import org.bouncycastle.util.Strings;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.RsaUtils.generateRSAKeyPair;
-import static com.abc.crypto.tools.demo.chapter8.certificates.JcaX509Certificate.createTrustAnchor;
+import static com.abc.signature.RsaUtils.generateRSAKeyPair;
+import static com.abc.signature.JcaX509Certificate.createTrustAnchor;
 
 public class JavaMailSMIMEEnvelopedDataExample
 {

@@ -10,7 +10,7 @@ import java.security.KeyPair;
 import java.security.Security;
 import java.util.Date;
 
-import com.abc.crypto.tools.demo.chapter6.signatures.DsaUtils;
+import com.abc.signature.DsaUtils;
 import org.bouncycastle.bcpg.ArmoredInputStream;
 import org.bouncycastle.bcpg.ArmoredOutputStream;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;

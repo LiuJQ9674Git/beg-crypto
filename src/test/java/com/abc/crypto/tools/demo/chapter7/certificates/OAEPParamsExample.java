@@ -11,7 +11,7 @@ import javax.crypto.spec.PSource;
 import org.bouncycastle.util.Arrays;
 import org.bouncycastle.util.Strings;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.RsaUtils.generateRSAKeyPair;
+import static com.abc.signature.RsaUtils.generateRSAKeyPair;
 import static com.abc.crypto.tools.demo.chapter7.certificates.RsaUtils.keyUnwrapOAEP;
 import static com.abc.crypto.tools.demo.chapter7.certificates.RsaUtils.keyWrapOAEP;
 import static com.abc.crypto.tools.demo.chapter7.certificates.Utils.createTestAESKey;

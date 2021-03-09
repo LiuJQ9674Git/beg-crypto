@@ -9,8 +9,8 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.Strings;
 
 import static com.abc.crypto.tools.demo.chapter6.signatures.EcDsaUtils.generateECKeyPair;
-import static com.abc.crypto.tools.demo.chapter6.signatures.SM2Utils.generateSM2Signature;
-import static com.abc.crypto.tools.demo.chapter6.signatures.SM2Utils.verifySM2Signature;
+import static com.abc.signature.SM2Utils.generateSM2Signature;
+import static com.abc.signature.SM2Utils.verifySM2Signature;
 
 /**
  * An example of using SM2 with an SM2ParameterSpec to specify the ID string

@@ -590,7 +590,8 @@ public class SM2Util extends GMBaseUtil {
      * @param sign             DER编码的签名值
      * @return 验签成功返回true，失败返回false
      */
-    public static boolean verify(ECPublicKeyParameters pubKeyParameters, byte[] withId, byte[] srcData, byte[] sign) {
+    public static boolean verify(ECPublicKeyParameters pubKeyParameters,
+                                 byte[] withId, byte[] srcData, byte[] sign) {
         SM2Signer signer = new SM2Signer();
         CipherParameters param;
         if (withId != null) {

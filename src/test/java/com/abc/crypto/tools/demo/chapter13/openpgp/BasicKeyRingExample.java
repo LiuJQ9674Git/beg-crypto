@@ -8,8 +8,8 @@ import java.security.KeyPair;
 import java.security.Security;
 import java.util.Date;
 
-import com.abc.crypto.tools.demo.chapter6.signatures.DsaUtils;
-import com.abc.crypto.tools.demo.chapter6.signatures.RsaUtils;
+import com.abc.signature.DsaUtils;
+import com.abc.signature.RsaUtils;
 import org.bouncycastle.bcpg.HashAlgorithmTags;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.openpgp.PGPEncryptedData;

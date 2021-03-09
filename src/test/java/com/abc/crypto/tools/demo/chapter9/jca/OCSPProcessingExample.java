@@ -36,8 +36,8 @@ import org.bouncycastle.operator.jcajce.JcaContentSignerBuilder;
 import org.bouncycastle.operator.jcajce.JcaContentVerifierProviderBuilder;
 import org.bouncycastle.operator.jcajce.JcaDigestCalculatorProviderBuilder;
 
-import static com.abc.crypto.tools.demo.chapter8.certificates.JcaX509Certificate.createIntermediateCertificate;
-import static com.abc.crypto.tools.demo.chapter8.certificates.JcaX509Certificate.createTrustAnchor;
+import static com.abc.signature.JcaX509Certificate.createIntermediateCertificate;
+import static com.abc.signature.JcaX509Certificate.createTrustAnchor;
 
 
 /**

@@ -1,14 +1,11 @@
 package com.abc.crypto.tools.demo.chapter7.certificates;
 
-import java.security.GeneralSecurityException;
-import java.security.KeyPair;
-import java.security.KeyPairGenerator;
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.security.*;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.Arrays;
 
 import static com.abc.crypto.tools.demo.chapter7.certificates.Utils.createTestAESKey;
@@ -19,6 +16,9 @@ import static com.abc.crypto.tools.demo.chapter7.certificates.Utils.createTestAE
  */
 public class OAEPExampleWithElGamal
 {
+    static {
+        Security.addProvider(new BouncyCastleProvider());
+    }
     /**
      * Generate a 2048 bit DH key pair using provider based parameters.
      *

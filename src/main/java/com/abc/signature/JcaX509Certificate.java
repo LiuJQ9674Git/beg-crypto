@@ -1,4 +1,4 @@
-package com.abc.crypto.tools.demo.chapter8.certificates;
+package com.abc.signature;
 
 import org.bouncycastle.asn1.ASN1ObjectIdentifier;
 import org.bouncycastle.asn1.ASN1OctetString;
@@ -52,39 +52,6 @@ public class JcaX509Certificate
         return BigInteger.valueOf(serialNumberBase++);
     }
 
-    /**
-     * Simple method to convert an X509CertificateHolder to an X509Certificate
-     * using the java.security.cert.CertificateFactory class.
-     */
-    public static X509Certificate convertX509CertificateHolder(
-                                             X509CertificateHolder certHolder)
-            throws GeneralSecurityException, IOException
-    {
-        CertificateFactory cFact = CertificateFactory.getInstance("X.509", "BC");
-
-        return (X509Certificate)cFact.generateCertificate(
-                                           new ByteArrayInputStream(
-                                                   certHolder.getEncoded()));
-    }
-
-    /**
-     * Convert an X500Name to use the IETF style.
-     */
-    public static X500Name toIETFName(X500Name name)
-    {
-        return X500Name.getInstance(RFC4519Style.INSTANCE, name);
-    }
-
-    public static X509KeyCertPair createTrustCert()
-            throws GeneralSecurityException, OperatorCreationException
-    {
-        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
-        KeyPair trustKp = kpGen.generateKeyPair();
-
-        X509CertificateHolder trustCert =
-                                  createTrustAnchor(trustKp, "SHA256withECDSA");
-        return new X509KeyCertPair(trustKp, trustCert);
-    }
 
     /**
      * Build a sample self-signed V1 certificate to use as a trust anchor, or
@@ -120,22 +87,6 @@ public class JcaX509Certificate
                                 .setProvider("BC").build(keyPair.getPrivate());
 
         return certBldr.build(signer);
-    }
-
-    public static X509KeyCertPair createInterCert(X509KeyCertPair trustPair)
-            throws GeneralSecurityException, OperatorCreationException, CertIOException
-    {
-        PrivateKey trustAnchorKey = trustPair.getKeyPair().getPrivate();
-        X509CertificateHolder trustCert = trustPair.getCert();
-
-        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
-        KeyPair caKp = kpGen.generateKeyPair();
-
-        X509CertificateHolder caCert =
-                createIntermediateCertificate(trustCert,
-                        trustAnchorKey,
-                        "SHA256withECDSA", caKp.getPublic(), 0);
-        return new X509KeyCertPair(caKp, caCert);
     }
 
     /**
@@ -194,20 +145,6 @@ public class JcaX509Certificate
         return certBldr.build(signer);
     }
 
-    public static X509KeyCertPair createEECert(X509KeyCertPair caPair)
-            throws GeneralSecurityException, OperatorCreationException, CertIOException
-    {
-        PrivateKey caPrivKey = caPair.getKeyPair().getPrivate();
-        X509CertificateHolder caCert = caPair.getCert();
-
-        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
-        KeyPair eeKp = kpGen.generateKeyPair();
-
-        X509CertificateHolder eeCert =
-                createEndEntity(caCert, caPrivKey, "SHA256withECDSA", eeKp.getPublic());
-
-        return new X509KeyCertPair(eeKp, eeCert);
-    }
 
     /**
      * Create a general end-entity certificate for use in verifying digital
@@ -259,23 +196,6 @@ public class JcaX509Certificate
                                        .setProvider("BC").build(signerKey);
 
         return certBldr.build(signer);
-    }
-
-    public static X509KeyCertPair createEESpecCert(X509KeyCertPair caPair)
-            throws GeneralSecurityException, OperatorCreationException, CertIOException
-    {
-        PrivateKey caPrivKey = caPair.getKeyPair().getPrivate();
-        X509CertificateHolder caCert = caPair.getCert();
-
-        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
-        KeyPair specEEKp = kpGen.generateKeyPair();
-
-        X509CertificateHolder specEECert =
-                createSpecialPurposeEndEntity(caCert, caPrivKey,
-                                               "SHA256withECDSA",
-                                               specEEKp.getPublic(),
-                                               KeyPurposeId.id_kp_timeStamping);
-        return new X509KeyCertPair(specEEKp, specEECert);
     }
 
     /**
@@ -331,37 +251,6 @@ public class JcaX509Certificate
 
         return certBldr.build(signer);
     }
-    /**
-     * Extract the DER encoded value octets of an extension from a JCA
-     * X509Certificate.
-     *
-     * @param cert the certificate of interest.
-     * @param extensionOID the OID associated with the extension of interest.
-     * @return the DER encoding inside the extension, null if extension missing.
-     */
-    public static byte[] extractExtensionValue(
-            X509Certificate cert,
-            ASN1ObjectIdentifier extensionOID)
-    {
-        byte[] octString = cert.getExtensionValue(extensionOID.getId());
-
-        if (octString == null)
-        {
-            return null;
-        }
-
-        return ASN1OctetString.getInstance(octString).getOctets();
-    }
-
-    public static X509AttributeCertificateHolder createAttrCertSample(PrivateKey issuerSigningKey,  X509CertificateHolder issuerCert, X509CertificateHolder holderCert)
-            throws OperatorCreationException
-    {
-        X509AttributeCertificateHolder attrCert =
-                createAttributeCertificate(issuerCert,
-                        issuerSigningKey,
-                        "SHA256withECDSA", holderCert, "id://DAU123456789");
-        return attrCert;
-    }
 
     public static X509AttributeCertificateHolder createAttributeCertificate(
             X509CertificateHolder issuerCert, PrivateKey issuerKey, String sigAlg,
@@ -386,5 +275,141 @@ public class JcaX509Certificate
                 .setProvider("BC").build(issuerKey);
         
         return acBldr.build(signer);
+    }
+
+    /////////////////一下方法无调用////////////////////////////////////
+    /**
+     * Extract the DER encoded value octets of an extension from a JCA
+     * X509Certificate.
+     *
+     * @param cert the certificate of interest.
+     * @param extensionOID the OID associated with the extension of interest.
+     * @return the DER encoding inside the extension, null if extension missing.
+     */
+    public static byte[] extractExtensionValue(
+            X509Certificate cert,
+            ASN1ObjectIdentifier extensionOID)
+    {
+        byte[] octString = cert.getExtensionValue(extensionOID.getId());
+
+        if (octString == null)
+        {
+            return null;
+        }
+
+        return ASN1OctetString.getInstance(octString).getOctets();
+    }
+
+
+    /**
+     * 无调用
+     * @param trustPair
+     * @return
+     * @throws GeneralSecurityException
+     * @throws OperatorCreationException
+     * @throws CertIOException
+     */
+    public static X509KeyCertPair createInterCert(X509KeyCertPair trustPair)
+            throws GeneralSecurityException, OperatorCreationException, CertIOException
+    {
+        PrivateKey trustAnchorKey = trustPair.getKeyPair().getPrivate();
+        X509CertificateHolder trustCert = trustPair.getCert();
+
+        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
+        KeyPair caKp = kpGen.generateKeyPair();
+
+        X509CertificateHolder caCert =
+                createIntermediateCertificate(trustCert,
+                        trustAnchorKey,
+                        "SHA256withECDSA", caKp.getPublic(), 0);
+        return new X509KeyCertPair(caKp, caCert);
+    }
+
+    public static X509AttributeCertificateHolder createAttrCertSample(PrivateKey issuerSigningKey,
+                                         X509CertificateHolder issuerCert, X509CertificateHolder holderCert)
+            throws OperatorCreationException
+    {
+        X509AttributeCertificateHolder attrCert =
+                createAttributeCertificate(issuerCert,
+                        issuerSigningKey,
+                        "SHA256withECDSA", holderCert, "id://DAU123456789");
+        return attrCert;
+    }
+
+    /**
+     * 无调用
+     * Simple method to convert an X509CertificateHolder to an X509Certificate
+     * using the java.security.cert.CertificateFactory class.
+     */
+    public static X509Certificate convertX509CertificateHolder(
+            X509CertificateHolder certHolder)
+            throws GeneralSecurityException, IOException
+    {
+        CertificateFactory cFact = CertificateFactory.getInstance("X.509", "BC");
+
+        return (X509Certificate)cFact.generateCertificate(
+                new ByteArrayInputStream(
+                        certHolder.getEncoded()));
+    }
+
+
+
+    /**
+     * Convert an X500Name to use the IETF style.
+     */
+    public static X500Name toIETFName(X500Name name)
+    {
+        return X500Name.getInstance(RFC4519Style.INSTANCE, name);
+    }
+
+    public static X509KeyCertPair createTrustCert()
+            throws GeneralSecurityException, OperatorCreationException
+    {
+        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
+        KeyPair trustKp = kpGen.generateKeyPair();
+
+        X509CertificateHolder trustCert =
+                createTrustAnchor(trustKp, "SHA256withECDSA");
+        return new X509KeyCertPair(trustKp, trustCert);
+    }
+
+    /**
+     * 无调用
+     * @param caPair
+     * @return
+     * @throws GeneralSecurityException
+     * @throws OperatorCreationException
+     * @throws CertIOException
+     */
+    public static X509KeyCertPair createEECert(X509KeyCertPair caPair)
+            throws GeneralSecurityException, OperatorCreationException, CertIOException
+    {
+        PrivateKey caPrivKey = caPair.getKeyPair().getPrivate();
+        X509CertificateHolder caCert = caPair.getCert();
+
+        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
+        KeyPair eeKp = kpGen.generateKeyPair();
+
+        X509CertificateHolder eeCert =
+                createEndEntity(caCert, caPrivKey, "SHA256withECDSA", eeKp.getPublic());
+
+        return new X509KeyCertPair(eeKp, eeCert);
+    }
+
+    public static X509KeyCertPair createEESpecCert(X509KeyCertPair caPair)
+            throws GeneralSecurityException, OperatorCreationException, CertIOException
+    {
+        PrivateKey caPrivKey = caPair.getKeyPair().getPrivate();
+        X509CertificateHolder caCert = caPair.getCert();
+
+        KeyPairGenerator kpGen = KeyPairGenerator.getInstance("EC", "BC");
+        KeyPair specEEKp = kpGen.generateKeyPair();
+
+        X509CertificateHolder specEECert =
+                createSpecialPurposeEndEntity(caCert, caPrivKey,
+                        "SHA256withECDSA",
+                        specEEKp.getPublic(),
+                        KeyPurposeId.id_kp_timeStamping);
+        return new X509KeyCertPair(specEEKp, specEECert);
     }
 }

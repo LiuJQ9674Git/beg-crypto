@@ -8,7 +8,7 @@ import java.security.KeyPair;
 import java.security.Security;
 import java.util.Date;
 
-import com.abc.crypto.tools.demo.chapter6.signatures.DsaUtils;
+import com.abc.signature.DsaUtils;
 import org.bouncycastle.bcpg.BCPGOutputStream;
 import org.bouncycastle.bcpg.PublicKeyAlgorithmTags;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;

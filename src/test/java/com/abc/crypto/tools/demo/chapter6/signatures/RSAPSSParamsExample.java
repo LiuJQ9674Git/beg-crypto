@@ -6,11 +6,12 @@ import java.security.Security;
 import java.security.spec.MGF1ParameterSpec;
 import java.security.spec.PSSParameterSpec;
 
+import com.abc.signature.RsaUtils;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.Strings;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.RsaUtils.generateRSAPSSSignature;
-import static com.abc.crypto.tools.demo.chapter6.signatures.RsaUtils.verifyRSAPSSSignature;
+import static com.abc.signature.RsaUtils.generateRSAPSSSignature;
+import static com.abc.signature.RsaUtils.verifyRSAPSSSignature;
 
 /**
  * An example of using RSA PSS with a PSSParameterSpec based on SHA-256.

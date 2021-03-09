@@ -6,9 +6,9 @@ import java.security.Security;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.Strings;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.DsaUtils.generateDSAKeyPair;
-import static com.abc.crypto.tools.demo.chapter6.signatures.DsaUtils.generateDSASignature;
-import static com.abc.crypto.tools.demo.chapter6.signatures.DsaUtils.verifyDSASignature;
+import static com.abc.signature.DsaUtils.generateDSAKeyPair;
+import static com.abc.signature.DsaUtils.generateDSASignature;
+import static com.abc.signature.DsaUtils.verifyDSASignature;
 
 public class DsaExample
 {

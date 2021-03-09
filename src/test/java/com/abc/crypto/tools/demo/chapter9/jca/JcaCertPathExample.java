@@ -26,9 +26,9 @@ import org.bouncycastle.cert.jcajce.JcaX509CRLConverter;
 import org.bouncycastle.cert.jcajce.JcaX509CertificateConverter;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
-import static com.abc.crypto.tools.demo.chapter8.certificates.JcaX509Certificate.createEndEntity;
-import static com.abc.crypto.tools.demo.chapter8.certificates.JcaX509Certificate.createIntermediateCertificate;
-import static com.abc.crypto.tools.demo.chapter8.certificates.JcaX509Certificate.createTrustAnchor;
+import static com.abc.signature.JcaX509Certificate.createEndEntity;
+import static com.abc.signature.JcaX509Certificate.createIntermediateCertificate;
+import static com.abc.signature.JcaX509Certificate.createTrustAnchor;
 
 /**
  * Basic example of certificate path validation using a CertPathValidator.

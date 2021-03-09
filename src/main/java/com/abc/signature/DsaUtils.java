@@ -1,4 +1,4 @@
-package com.abc.crypto.tools.demo.chapter6.signatures;
+package com.abc.signature;
 
 import java.io.IOException;
 import java.security.AlgorithmParameterGenerator;
