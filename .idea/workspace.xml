@@ -1,336 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0b37e21-5233-4b51-b79d-db1a86627ef1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/certificate/JcaX509Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/certificate/JcaX509Certificate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/certificate/X509KeyCertPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/certificate/X509KeyCertPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/KeyStoreUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter10/storage/KeyStoreUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/CMSTSPExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/CMSTSPExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/EnvelopedDataExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/EnvelopedDataExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/JavaMailSMIMEEnvelopedDataExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/JavaMailSMIMEEnvelopedDataExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/JavaMailSMIMESignedDataExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/JavaMailSMIMESignedDataExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMEEnvelopedDataExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMEEnvelopedDataExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMESignedDataExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMESignedDataExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/EcDDsaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/EcDDsaExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/EcDsaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/EcDsaExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/EcDsaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/signature/EcDsaUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/SM2ParamSpecExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/SM2ParamSpecExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter7/certificates/ECCDHExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter7/certificates/ECCDHExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathBuilderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathBuilderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathWithCheckerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathWithCheckerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaX509CRL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/JcaX509CRL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/OCSPProcessingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter9/jca/OCSPProcessingExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/beg-crypto.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/BCECUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/FileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/GMBaseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/SM2Cipher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/SM2KeyExchangeUtil$ExchangeResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/SM2KeyExchangeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/SM2PreprocessSigner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/SM2Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/SM3Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/SM4Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/BCCertUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/BCPkcs12Maker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/BCX509CertMaker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/BCX509CertMaker$CertLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/BCX509CertMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/BCX509CertReadWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/CertSNAllocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/CommonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/FileSNAllocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/RandomSNAllocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/SM2PrivateKeyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/demo/BCX509Cert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/bc/gm/cert/exception/InvalidX500NameException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/signature/DsaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/signature/JcaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/signature/JcaX509Certificate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/signature/RsaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/signature/SM2Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/signature/SignatureSM3WithSM2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/signature/X509KeyCertPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ec.pkcs1.pri" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ec.pkcs8.pri.der" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ec.pkcs8.pri.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ec.x509.pub.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/beg-crypto.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/BCCertificateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/BCTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/CertPathExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/KeyAgreementTest$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/KeyAgreementTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/ListAlgorithms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/ListBCCapabilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/PKCS10CertCreateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/PKCS10CertRequestExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/PKCS10ExtensionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/PKCS5Scheme1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/RSATest$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/RSATest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/SignatureSM3WithSM2Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/Utils$FixedRand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/X509V1CreateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/base/X509V3CreateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/cert/FileSNAllocatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/cert/SM2CertUtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/cert/SM2PfxMakerCBTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/cert/SM2PfxMakerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/cert/SM2Pkcs12MakerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/cert/SM2PrivateKeyUtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/cert/X509CertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/AllTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/BCECUtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/GMBaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/SM2KeyExchangeUtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/SM2PreprocessSignerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/SM2UtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/SM3UtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/bc/gm/test/SM4UtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/ListAlgorithms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/ListBCCapabilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/ListProviders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/PolicyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/PrecedenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/SimplePolicyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/SimpleProviderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter1/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/CreateKeyStores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/HTTPSClientExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/HTTPSClientExample$Validator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/HTTPSClientExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/HTTPSServerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/SSLClientExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/SSLClientWithClientAuthExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/SSLClientWithClientAuthTrustExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/SSLServerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/SSLServerWithClientAuthExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/SSLServerWithClientAuthIdExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter10/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/InlineIvCBCExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/KeyGeneratorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/NonceIvCBCExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/PBEWithParamsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/PBEWithoutParamsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleCBCExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleCTRExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleCipherWrapExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleECBExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleIOExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleStreamExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleSymmetricExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleSymmetricPaddingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/SimpleWrapExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter2/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/CipherMacExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/DigestIOExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/MGF1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/PKCS5Scheme1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/PKCS5Scheme1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/TamperedDigestExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/TamperedExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/TamperedWithDigestExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/TamperedWithHMacExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter3/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/AESWrapRSAExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/AlgorithmParameterExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/BaseRSAExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/BasicDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/BasicDSAExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/BasicECDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/BasicECDSAExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/BasicPSSExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/ElGamalKeyExchangeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/NamedCurveExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/OAEPPaddedRSAExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/PKCS1PaddedRSAExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/PKCS1SignatureExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/RSAKeyExchangeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/RandomKeyElGamalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/RandomKeyRSAExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/ThreeWayDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/Utils$FixedRand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter4/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/ASN1DumpExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/EncryptedPrivateKeyInfoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/IVExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/MyStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/MyStructureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/PKCS1SigEncodingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/PKCS8EncodedKeySpecExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/PSSParamExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter5/X509EncodedKeySpecExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/CertPathExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/CertStoreExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/CertificateFactoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/CollectionMultipleCertificateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/MultipleCertificateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/PEMCertificateFactoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/PKCS10CertCreateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/PKCS10CertRequestExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/PKCS10ExtensionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/X509V1CreateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter6/X509V3CreateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter7/CRLCertFactoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter7/CRLCertStoreExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter7/CertPathBuilderExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter7/CertPathValidatorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter7/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter7/X509CRLExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter8/JCEKSStoreBuilderExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter8/JCEKSStoreEntryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter8/JKSStoreExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter8/KeyStoreFileUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter8/PKCS12StoreExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter8/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter9/CMSProcessableFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tech/demo/chapter9/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/appendixA/SimpleStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter1/base/ListProviderCapabilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter1/base/ListProviders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter1/base/PolicyFileCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter1/base/PrecedenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter10/storage/BCFKSExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter10/storage/BCFKSwithScryptExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter10/storage/JKSExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter10/storage/KeyStoreUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter10/storage/PKCS12Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter10/storage/PrivateCredential.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/CMSTSPExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/EnvelopedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/JavaMailSMIMEEnvelopedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/JavaMailSMIMESignedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMEEnvelopedDataExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMEEnvelopedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMESignedDataExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SMIMESignedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataStreamExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/SignerInfoUsingDefLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter11/certificatesign/TSPUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter12/CRMFUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter12/JcaPKCS10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/ArmoredExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/BasicKeyRingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/KeyBoxExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/KeyBoxExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/PGPClearTextSignatureExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/PGPDetachedSignedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/PGPEncryptionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/PGPPBEEncryptionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/PGPSignedDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/PGPSignedTextDataExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/PGPUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter13/openpgp/SExprExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSAuthExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSAuthWithPKIXExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSServer$ServerTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/BasicTLSServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/Protocol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSClientWithClientAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuth$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuth$ServerTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuthWithPKIX$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuthWithPKIX$ServerTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSServerWithClientAuthWithPKIX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter14/tls/TLSUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/CBCExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/CBCGenExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/CBCPadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/CTRExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/CTSExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/CipherIOExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/ECBKeyGenExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/ECBRepeatedExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/ECBShortExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter2/ciphers/StreamExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/AuditPath$Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/AuditPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/DigestCalculatorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/DigestExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/HMacExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/JcaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/JceUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/MacExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/MerkleExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/MerkleTree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/MerkleTree$BranchNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/MerkleTree$LeafNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/MerkleTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter3/digests/MerkleTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/AEADUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/CCMWithAADExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/EAXExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/GCMExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/GCMFailExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/GCMWithAADExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/GCMWithParamGenExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/KWExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/KWPExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter4/cipher/SealedObjectExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter5/shamir/LagrangeWeightCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter5/shamir/PKCS5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter5/shamir/SCRYPT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter5/shamir/ShamirExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter5/shamir/ShamirSecretSplitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter5/shamir/SplitSecret.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/DSTU4145Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/DSTU4145Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/DsaExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/EcDDsaExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/EcDsaExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/EcDsaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/EdDsaExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/EdDsaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/GostR3410_2012Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/GostR3410_2012Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/RSAPSSParamsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter6/signatures/SM2ParamSpecExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/BasicDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/DHUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/ECCDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/ECDHUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/ECDHUtils2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/InsecureDHUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/KEMSExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/MQVDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/OAEPExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/OAEPExampleWithElGamal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/RsaKemsUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/UKMDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/UnifiedDHExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter7/certificates/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathBuilderExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter9/jca/JcaCertPathWithCheckerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter9/jca/JcaX509CRL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter9/jca/OCSPPathChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/crypto/tools/demo/chapter9/jca/OCSPProcessingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.mid.ca.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.mid.ca.pri" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.pfx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.root.ca.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.root.ca.pri" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.user.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.user.pri" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test4.sm2.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test4.sm2.pri" beforeDir="false" />
-    </list>
+    <list default="true" id="a0b37e21-5233-4b51-b79d-db1a86627ef1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -354,7 +25,7 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="html" value="1" />
-          <entry key="java" value="378" />
+          <entry key="java" value="383" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -362,7 +33,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="378" />
+          <entry key="JAVA" value="383" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -385,61 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter11/certificatesign/SignedDataExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="287" column="60" selection-start-line="287" selection-start-column="50" selection-end-line="287" selection-end-column="60" />
-              <folding>
-                <element signature="e#6957#6980#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tools/demo/chapter6/signatures/RSAPSSParamsExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/signature/JcaUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-458">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/certificate/JcaX509Certificate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/signature/SignatureSM3WithSM2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-35">
               <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/signature/RsaUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="240" column="5" selection-start-line="240" selection-start-column="5" selection-end-line="240" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -477,11 +97,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/signature/EcDsaUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/X509EncodedKeySpecExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/MyStructure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1208">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/MyStructureTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-383">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/PKCS1SigEncodingExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/PKCS8EncodedKeySpecExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -503,6 +171,7 @@
       <find>Cipher</find>
       <find>encrypt</find>
       <find>keyWrapOAEP</find>
+      <find>X509EncodedKeySpec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -714,7 +383,7 @@
               <item name="abc" type="462c0819:PsiDirectoryNode" />
               <item name="crypto" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
@@ -725,73 +394,6 @@
               <item name="abc" type="462c0819:PsiDirectoryNode" />
               <item name="crypto" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="certificates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="abc" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="jca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="abc" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="abc" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="certificatesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="abc" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="abc" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="openpgp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beg-crypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beg-crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="abc" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -800,7 +402,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615303938139" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615308477024" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert" />
   </component>
   <component name="RecentsManager">
@@ -824,13 +426,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SignedDataExample">
-    <configuration name="OAEPExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abc.crypto.tools.demo.chapter7.certificates.OAEPExample" />
+  <component name="RunManager" selected="Application.X509EncodedKeySpecExample">
+    <configuration name="MyStructureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abc.crypto.tech.demo.chapter5.MyStructureTest" />
       <module name="beg-crypto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abc.crypto.tools.demo.chapter7.certificates.*" />
+          <option name="PATTERN" value="com.abc.crypto.tech.demo.chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -877,36 +479,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SM2CertUtilTest.testVerifyCertificateFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="X509EncodedKeySpecExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abc.crypto.tech.demo.chapter5.X509EncodedKeySpecExample" />
       <module name="beg-crypto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abc.bc.gm.cert.*" />
+          <option name="PATTERN" value="com.abc.crypto.tech.demo.chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.abc.bc.gm.cert" />
-      <option name="MAIN_CLASS_NAME" value="com.abc.bc.gm.cert.SM2CertUtilTest" />
-      <option name="METHOD_NAME" value="testVerifyCertificateFromFile" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SM2CertUtilTest.testVerifyCertificateFromFile" />
       <item itemvalue="Application.OAEPExampleWithElGamal" />
-      <item itemvalue="Application.OAEPExample" />
       <item itemvalue="Application.OAEPParamsExample" />
       <item itemvalue="Application.SignedDataExample" />
+      <item itemvalue="Application.X509EncodedKeySpecExample" />
+      <item itemvalue="Application.MyStructureTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.X509EncodedKeySpecExample" />
+        <item itemvalue="Application.MyStructureTest" />
         <item itemvalue="Application.SignedDataExample" />
         <item itemvalue="Application.OAEPExampleWithElGamal" />
         <item itemvalue="Application.OAEPParamsExample" />
-        <item itemvalue="Application.OAEPExample" />
-        <item itemvalue="JUnit.SM2CertUtilTest.testVerifyCertificateFromFile" />
       </list>
     </recent_temporary>
   </component>
@@ -957,6 +556,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49390244" visible="true" weight="0.21745351" />
       <window_info id="Designer" order="1" />
@@ -1011,41 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM3Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/BCECUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1817">
-          <caret line="250" column="38" selection-start-line="250" selection-start-column="38" selection-end-line="250" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/SM2Cipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/FileSNAllocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/bc/gm/cert/RandomSNAllocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/bc/gm/cert/SM2PrivateKeyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -1393,8 +958,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/abc/signature/EcDsaUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/MyStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1208">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/MyStructureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-383">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/PKCS1SigEncodingExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/PKCS8EncodedKeySpecExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/abc/crypto/tech/demo/chapter5/X509EncodedKeySpecExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

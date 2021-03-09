@@ -1,13 +1,18 @@
 package com.abc.crypto.tech.demo.chapter5;
+import java.security.Security;
 import java.util.Date;
 
 import com.abc.crypto.tech.demo.chapter4.Utils;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 /**
  * Test for MyStructure
  */
 public class MyStructureTest
 {
+    static {
+        Security.addProvider(new BouncyCastleProvider());
+    }
     public static void main(String[] args)
         throws Exception
     {

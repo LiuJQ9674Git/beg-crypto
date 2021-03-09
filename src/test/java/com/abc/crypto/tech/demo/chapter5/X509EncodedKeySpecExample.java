@@ -9,12 +9,16 @@ import org.bouncycastle.asn1.util.ASN1Dump;
 import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo;
 
 import com.abc.crypto.tech.demo.chapter4.Utils;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 /**
  * Simple example showing use of X509EncodedKeySpec
  */
 public class X509EncodedKeySpecExample
 {
+    static {
+        Security.addProvider(new BouncyCastleProvider());
+    }
     public static void main(
         String[]    args)
         throws Exception
