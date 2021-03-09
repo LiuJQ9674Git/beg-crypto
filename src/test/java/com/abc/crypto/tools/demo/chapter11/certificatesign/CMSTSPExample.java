@@ -17,9 +17,9 @@ import org.bouncycastle.util.Strings;
 
 import static com.abc.crypto.tools.demo.chapter11.certificatesign.TSPUtils.createTimeStampedSignedData;
 import static com.abc.crypto.tools.demo.chapter11.certificatesign.TSPUtils.verifyTimeStampedSigner;
-import static com.abc.crypto.tools.demo.chapter6.signatures.EcDsaUtils.generateECKeyPair;
-import static com.abc.signature.JcaX509Certificate.createSpecialPurposeEndEntity;
-import static com.abc.signature.JcaX509Certificate.createTrustAnchor;
+import static com.abc.signature.EcDsaUtils.generateECKeyPair;
+import static com.abc.certificate.JcaX509Certificate.createSpecialPurposeEndEntity;
+import static com.abc.certificate.JcaX509Certificate.createTrustAnchor;
 
 /**
  * Example showing the full time-stamping of CMS SignedData

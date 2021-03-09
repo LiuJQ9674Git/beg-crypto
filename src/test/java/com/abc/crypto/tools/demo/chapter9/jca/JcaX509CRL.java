@@ -19,7 +19,7 @@ import org.bouncycastle.operator.ContentSigner;
 import org.bouncycastle.operator.OperatorCreationException;
 import org.bouncycastle.operator.jcajce.JcaContentSignerBuilder;
 
-import static com.abc.signature.JcaX509Certificate.calculateDate;
+import static com.abc.certificate.JcaX509Certificate.calculateDate;
 
 public class JcaX509CRL
 {

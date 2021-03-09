@@ -1,4 +1,4 @@
-package com.abc.signature;
+package com.abc.certificate;
 
 import org.bouncycastle.cert.X509CertificateHolder;
 

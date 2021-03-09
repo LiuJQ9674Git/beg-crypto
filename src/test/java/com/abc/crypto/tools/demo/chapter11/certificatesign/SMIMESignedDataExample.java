@@ -36,8 +36,8 @@ import org.bouncycastle.util.Store;
 import org.bouncycastle.util.Strings;
 import org.bouncycastle.util.io.Streams;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.EcDsaUtils.generateECKeyPair;
-import static com.abc.signature.JcaX509Certificate.createTrustAnchor;
+import static com.abc.signature.EcDsaUtils.generateECKeyPair;
+import static com.abc.certificate.JcaX509Certificate.createTrustAnchor;
 
 public class SMIMESignedDataExample
 {

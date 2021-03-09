@@ -8,8 +8,8 @@ import org.bouncycastle.cert.X509CertificateHolder;
 import org.bouncycastle.cert.jcajce.JcaX509CertificateConverter;
 import org.bouncycastle.operator.OperatorCreationException;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.EcDsaUtils.generateECKeyPair;
-import static com.abc.signature.JcaX509Certificate.createTrustAnchor;
+import static com.abc.signature.EcDsaUtils.generateECKeyPair;
+import static com.abc.certificate.JcaX509Certificate.createTrustAnchor;
 
 public class KeyStoreUtils
 {

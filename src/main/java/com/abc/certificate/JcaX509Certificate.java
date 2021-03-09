@@ -1,4 +1,4 @@
-package com.abc.signature;
+package com.abc.certificate;
 
 import org.bouncycastle.asn1.ASN1ObjectIdentifier;
 import org.bouncycastle.asn1.ASN1OctetString;

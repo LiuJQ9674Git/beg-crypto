@@ -4,11 +4,12 @@ import java.security.GeneralSecurityException;
 import java.security.KeyPair;
 import java.security.Security;
 
+import com.abc.signature.EcDsaUtils;
 import org.bouncycastle.jcajce.spec.SM2ParameterSpec;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.Strings;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.EcDsaUtils.generateECKeyPair;
+import static com.abc.signature.EcDsaUtils.generateECKeyPair;
 import static com.abc.signature.SM2Utils.generateSM2Signature;
 import static com.abc.signature.SM2Utils.verifySM2Signature;
 

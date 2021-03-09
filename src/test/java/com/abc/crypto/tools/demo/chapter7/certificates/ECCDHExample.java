@@ -9,7 +9,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.Arrays;
 import org.bouncycastle.util.Strings;
 
-import static com.abc.crypto.tools.demo.chapter6.signatures.EcDsaUtils.generateECKeyPair;
+import static com.abc.signature.EcDsaUtils.generateECKeyPair;
 import static com.abc.crypto.tools.demo.chapter7.certificates.ECDHUtils.ecGenerateAESKey;
 
 public class ECCDHExample
